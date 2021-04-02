@@ -1,0 +1,295 @@
+@media (max-width: 1440px) {
+	header {
+		margin-bottom: 100px;
+	}
+	header .wrapper {
+		padding: 27px 50px;
+	}
+	.wrapper {
+		padding: 0 50px;
+	}
+	.siteLogo {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.ulNav a {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.ulNav li:last-child a {
+		width: 20px;
+		height: 20px;
+	}
+	.ulNav li:last-child a:before {
+		background-size: 20px;
+	}
+	.sectionTop {
+		margin-bottom: 300px;
+	}
+	.sectionTopText span {
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 40px;
+	}
+	.sectionTopText h1 {
+		font-size: 45px;
+		line-height: 54px;
+	}
+	.changeBg {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.changeBg:before {
+		left: -40px;
+		width: 20px;
+		height: 20px;
+	}
+	.sectionList h2 {
+		font-size: 70px;
+		line-height: 84px;
+	}
+	.blockH2 .microIcon {
+		width: 50px;
+		height: 50px;
+		background-size: 50px;
+		margin: 0 0 15px 35px;
+	}
+	.ulList {
+		margin: 0 -50px;
+	}
+	.ulList:before {
+		left: 50px;
+		right: 50px;
+		height: 1px;
+	}
+	.ulList h3 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.ulList .liList {
+		height: 260px;
+		padding: 20px 50px;
+	}
+	.ulList .liList:before {
+		left: 50px;
+		right: 50px;
+		height: 1px;
+	}
+	.ulListInto li span {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.ulList .w40Bottom span {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.showmore {
+		height: 200px;
+		left: -50px;
+		right: -50px;
+	}
+	.showmore span {
+		font-size: 16px;
+		line-height: 20px;
+		border-width: 2px;
+		padding-bottom: 10px;
+	}
+}
+/*max-width: 1440px*/
+
+
+@media (max-width: 1024px) {
+	header {
+	    margin-bottom: 161px;
+	}
+	.wrapper {
+		padding: 0 20px;
+	}
+	header .wrapper {
+		padding: 27px 20px;
+	}
+	nav {
+		display: none;
+	}
+	.mobileNav {
+		background: transparent;
+		width: 20px;
+		height: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
+	.mobileNav i {
+		height: 2px;
+		background: #EBE3CE;
+	}
+	.mobileNav i:first-child {
+		flex-basis: 100%;
+	}
+	.mobileNav i:last-child {
+		flex-basis: 50%;
+		margin-top: auto;
+	}
+	.sectionTop img {
+		min-width: 100%;
+	}
+	.sectionTopText {
+		position: static;
+		transform: none;
+	}
+	.sectionTopText h1 {
+	    font-size: 40px;
+	    line-height: 48px;
+	    margin-bottom: 55px;
+	}
+	.changeBg {
+		display: none;
+	}
+	.sectionTop {
+	    margin-bottom: 250px;
+	}
+	.sectionList h2 {
+	    font-size: 50px;
+	    line-height: 60px;
+	}
+	.blockH2 {
+		margin-bottom: 50px;
+	}
+	.blockH2 .microIcon {
+		margin: 0 0 8px 35px;
+	}
+	.ulList h3 {
+	    font-size: 22px;
+	    line-height: 26px;
+	}
+	.ulListInto li span {
+	    line-height: 28px;
+	}
+	.ulList {
+		margin: 0 -20px;
+	}
+	.ulList:before {
+	    left: 20px;
+	    right: 20px;
+	}
+	.ulList .liList {
+		height: auto;
+		padding: 50px 20px;
+	}
+	.ulList .liList:before {
+	    left: 20px;
+	    right: 20px;
+	}
+	.ulList .w40Bottom {
+		justify-content: space-between;
+	}
+	.ulList .w40Bottom span {
+	    font-size: 12px;
+	    line-height: 16px;
+	    flex-basis: auto;
+	}
+	.showmore {
+		left: -20px;
+		right: -20px;
+	}
+	.blackBody .ulList .liList:hover {
+		background: inherit;
+	}
+	.blackBody .ulList .liList:hover * {
+		color: inherit;
+	}
+	.ulList .liList:hover h3 {
+		border: none;
+	}
+	.ulList .liList:hover:before {
+		opacity: 1;
+	}
+}
+/*max-width: 1024px*/
+
+
+@media (max-width: 375px) {
+	header {
+	    margin-bottom: 97px;
+	}
+	header .wrapper {
+	    padding: 16px 20px;
+	}
+	.sectionTopText span {
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	.sectionTopText h1 {
+	    font-size: 25px;
+	    line-height: 30px;
+	    margin-bottom: 0;
+	}
+	.sectionTop {
+	    margin-bottom: 145px;
+	}
+	.blockH2 .microIcon {
+		width: 30px;
+		height: 30px;
+	    margin: 0 0 4px 20px;
+	    background-size: 30px;
+	}
+	.sectionList h2 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.blockH2 {
+		margin-bottom: 40px;
+	}
+	.ulList .liList {
+		flex-wrap: wrap;
+	}
+	.ulList .w40 {
+		flex-basis: 100%;
+	}
+	.ulList .w40.left {
+		margin-bottom: 30px;
+	}
+	.ulList .w40.right {
+		margin-bottom: 30px;
+	}
+	.ulList h3 {
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+	.ulListInto li span {
+		font-size: 18px;
+	    line-height: 25px;
+	}
+	.ulList .w40Bottom {
+		position: static;
+	}
+	.ulListInto {
+		margin-bottom: 30px;
+	}
+	.btnList {
+		display: block;
+		flex-basis: 100%;
+		height: 64px;
+		border: 1px solid #EBE3CE;
+	}
+	.btnList span {
+		font-size: 20px;
+		line-height: 26px;
+		color: #EBE3CE;
+		text-transform: uppercase;
+		position: relative;
+	}
+	.btnList span:before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		right: -30px;
+		width: 17px;
+		height: 17px;
+		background: url(../image/arrow.svg) 0 0 no-repeat;
+		transform: translate(0, -50%);
+	}
+	.showmore {
+		height: 250px;
+	}
+}
